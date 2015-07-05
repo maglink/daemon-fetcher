@@ -1,0 +1,22 @@
+{
+  "name": "daemon-fetcher",
+  "version": "0.1.0",
+  "description": "Daemon-fetcher",
+  "main": "start.js",
+  "bin": {
+    "daemon-fetcher": "bin/daemon-fetcher.js"
+  },
+  "dependencies": {
+    "daemon": "~1.1.0",
+    "nconf": "~0.7.1",
+    "path": "~0.11.14",
+    "xml2js": "~0.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksey Kasatkin",
+  "license": "BSD-2-Clause"
+}
